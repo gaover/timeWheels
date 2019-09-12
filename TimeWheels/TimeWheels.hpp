@@ -179,7 +179,7 @@ namespace tws
 			}
 			else
 			{
-				m_kTimerData[eSecondLvl][sg_TimerSlotLimit[eSecondLvl]].emplace_back(pkWheel);
+				m_kTimerData[eSecondLvl][m_SlotIndex[eSecondLvl]].emplace_back(pkWheel);
 			}
 
 			return true;
